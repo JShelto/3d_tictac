@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	  <link rel="stylesheet" type="text/css" href="reset.css">
+	  <link rel="stylesheet" type="text/css" href="stylesheets.css">
+	</head>
+	<body>
+		<div class="game-container">
+			<div class="players-container">
+				<div class="player">
+					<div id="image-one" class="player-image"><img src="" alt="player-1"></div>
+					<hr>
+					<div id="one-score" class="player-score">0</div>
+				</div>
+				<div class="player">
+					<div id="image-two" class="player-image"><img src="" alt="player-2"></div>
+					<hr>
+					<div id="two-score" class="player-score">0</div>
+				</div>
+			</div>
+			<div class="row">
+				<section class="container">
+					<div id="one" class="tile" data-val="1" onclick="flipTile(this.id);">
+						<figure class="front">1</figure>
+						<figure class="back"></figure>
+					</div>
+				</section>
+				<section class="container">
+					<div id="two" class="tile" data-val="2" onclick="flipTile(this.id);">
+						<figure class="front">2</figure>
+						<figure class="back"></figure>
+					</div>
+				</section>
+				<section class="container">
+					<div id="three" class="tile" data-val="3" onclick="flipTile(this.id);">
+						<figure class="front">3</figure>
+						<figure class="back"></figure>
+					</div>
+				</section>
+			</div>
+			<div class="row">
+				<section class="container">
+					<div id="four" class="tile" data-val="4" onclick="flipTile(this.id);">
+						<figure class="front">4</figure>
+						<figure class="back"></figure>
+					</div>
+				</section>
+				<section class="container">
+					<div id="five" class="tile" data-val="5" onclick="flipTile(this.id);">
+						<figure class="front">5</figure>
+						<figure class="back"></figure>
+					</div>
+				</section>
+				<section class="container">
+					<div id="six" class="tile" data-val="6" onclick="flipTile(this.id);">
+						<figure class="front">6</figure>
+						<figure class="back"></figure>
+					</div>
+				</section>
+			</div>
+			<div class="row">
+				<section class="container">
+					<div id="seven" class="tile" data-val="7" onclick="flipTile(this.id);">
+						<figure class="front">7</figure>
+						<figure class="back"></figure>
+					</div>
+				</section>
+				<section class="container">
+					<div id="eight" class="tile" data-val="8" onclick="flipTile(this.id);">
+						<figure class="front">8</figure>
+						<figure class="back"></figure>
+					</div>
+				</section>
+				<section class="container">
+					<div id="nine" class="tile" data-val="9" onclick="flipTile(this.id);">
+						<figure class="front">9</figure>
+						<figure class="back"></figure>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="tictac.js"></script>
+	</body>
+</html>
